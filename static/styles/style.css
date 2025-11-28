@@ -1,0 +1,87 @@
+body {
+    background: #0b0f1a;
+    color: #d0d8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #121829;
+    box-shadow: 0 0 20px #4a5cff80;
+}
+
+h1 {
+    font-size: 32px;
+    color: #6c8bff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.controls, .visual {
+    background: #131b2e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #3c4eff50;
+}
+
+h2, h3 {
+    color: #7ea0ff;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border-radius: 6px;
+    border: none;
+    background: #1b253a;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    background: #4a5cff;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #6a7cff;
+    transform: scale(1.03);
+}
+
+.btn.red { background: #ff4d4d; }
+.btn.red:hover { background: #ff6b6b; }
+
+.btn.yellow { background: #e6b800; }
+.btn.yellow:hover { background: #ffd633; }
+
+.btn.green { background: #1dbf73; }
+.btn.green:hover { background: #33d68c; }
+
+#graph {
+    background: #0f1625;
+    border-radius: 10px;
+    height: 360px;
+    margin-top: 10px;
+}
+
+pre {
+    background: #0f1625;
+    padding: 15px;
+    border-radius: 8px;
+    color: #9ab0ff;
+}

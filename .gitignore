@@ -1,0 +1,59 @@
+# ==========================
+# Python & Flask Project
+# ==========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pdb
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables & secrets
+*.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Unit test cache
+.pytest_cache/
+tests/__pycache__/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+*$~
+*.swp
+*.swo
+
+# VS Code workspace settings
+.vscode/
+.history/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Flask-specific
+instance/
+*.db
+*.sqlite3
+
+# Node (in case future js build tools added)
+node_modules/
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
